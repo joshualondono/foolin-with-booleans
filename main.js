@@ -2,6 +2,37 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function returnFalse(bool){
+  return !bool
+}
+
+function isOpposite(bool){
+  return !bool
+}
+
+function both(bool1,bool2){
+  return bool1 && bool2
+}
+
+function either(bool1,bool2){
+  return bool1 || bool2;
+}
+
+function firstOnly(bool1,bool2){
+  return bool1 && !bool2
+}
+
+function secondOnly(bool1,bool2){
+  return !bool1 && bool2
+}
+
+function neither(bool1,bool2){
+  return !bool1 && !bool2
+}
+
+function isComplicated(bool1,bool2,bool3){
+  return !bool1 || bool1 && bool3
+}
 
 
 
